@@ -1,2 +1,2 @@
 # PowerShell
-PowerShell Projets
+PowerShell Projects
