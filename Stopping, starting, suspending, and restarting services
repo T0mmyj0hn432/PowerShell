@@ -1,0 +1,11 @@
+#Stopping, starting, suspending, and restarting services
+
+Stop-Service -Name spooler
+
+Start-Service -Name spooler
+
+Suspend-Service -Name spooler
+
+PS> Restart-Service -Name spooler
+
+Invoke-Command -ComputerName Server01 {Restart-Service Spooler}
