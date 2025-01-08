@@ -1,0 +1,3 @@
+#Listing computer manufacturer and model
+
+Get-CimInstance -ClassName Win32_ComputerSystem
